@@ -1,0 +1,80 @@
+@font-face {
+  font-family: Smash;
+  src: url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc4.woff2);
+}
+
+body {
+  margin: 0 auto;
+  font-family: sans-serif;
+  background-image: url(https://www.smashbros.com/assets_v2/img/fighter/bayonetta/bg.jpg);
+  background-size: cover;
+  font-family: Smash, sans-serif;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+/* #header {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+} */
+
+#header {
+  margin: 0 auto;
+}
+
+div h1 {
+  display: inline;
+}
+
+#fightersText {
+  font-size: 5em;
+}
+
+#nameBar {
+  display: grid;
+  grid-template: 100% / 10% 20% 70%;
+  background-color: black;
+  color: white;
+  align-items: center;
+  height: 60px;
+  margin-top: -.6%;
+}
+
+#nameBar a:nth-child(3) {
+  text-align: right;
+  color: #9E9E9E;
+  text-decoration: none;
+  font-size: 1.5em;
+  padding: 50px;
+}
+
+#nameBar img {
+  width: 80%;
+}
+
+#nameBar h2 {
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: 100;
+}
+
+#background img {
+  width: 100%;
+  position: relative;
+}
+
+#background h3 {
+  position: absolute;
+  top: 60%;
+  text-transform: uppercase;
+  letter-spacing: -24px;
+  font-size: 250px;
+  text-align: center;
+}
+/* #bayonetta {
+  position: absolute;
+  top: 110%;
+} */
